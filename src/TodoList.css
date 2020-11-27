@@ -1,0 +1,102 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 20px 100px;
+}
+
+.title {
+  margin: 20px 0 48px;
+}
+
+/* tools */
+
+.tools {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tool {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.delete-all-icon {
+  font-size: 16px;
+  color: red;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* todo-header */
+
+.todos-header {
+  display: flex;
+  justify-conente: space-between;
+  background: #FFFFFF;
+  padding: 14px;
+  border-radius: 20px;
+}
+
+.todos-header-input {
+  border: none;
+  border-radius: 0;
+  outline: none;
+  font-size: 16px;
+}
+
+.todos-header-plus {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+/* todos */
+
+.todos {
+  width: 100%;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  padding: 14px;
+  margin-top: 8px;
+  border-radius: 20px;
+}
+
+.todo-checkbox {
+  width: 24px;
+  display: flex;
+}
+
+.todo-text {
+  flex: 1;
+  text-align: left;
+  position: relative;
+}
+
+.todo-text-active {
+  text-decoration: line-through;
+}
